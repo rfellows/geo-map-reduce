@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Example of how you would execute your task during development
+
+# In the project root:
+hadoop jar ./target/geo-map-reduce-job.jar /tmp/geo-map-reduce/input /tmp/geo-map-reduce/output
